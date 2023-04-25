@@ -1,0 +1,142 @@
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25pt;
+    text-align: center;
+    margin: 50px;
+    color: royalblue;
+}
+
+h1.welcome{
+    color:royalblue;
+    position: relative;
+    animation-name: slide;
+    animation-duration:2s;
+    animation-duration: linear;
+
+}
+
+@keyframes slide {
+    0% {
+        left: 1020px;
+      }
+    100% {
+        left:0px;
+      }
+}
+
+
+.shoes1img:hover{
+    transition: 2s linear;
+    transform: scale(1.4);
+}
+.shoes1img:hover .shoes1Text{
+    opacity: 1;
+}
+
+.shoes1Wrap {
+    width: 100%;
+    margin: 10px auto;
+    position: relative;
+}
+
+.shoes1Text {
+    position: absolute;
+    text-align: middle;
+    top: 30px;
+    left: 520px;
+    opacity: 0;
+}
+
+.shoes2img:hover{
+    transition: 2s linear;
+    transform: scale(1.4);
+}
+.shoes2img:hover .shoes2Text{
+    opacity: 1;
+}
+
+.shoes2Wrap {
+    width: 100%;
+    margin: 10px auto;
+    position: relative;
+}
+
+.shoes2Text {
+    position: absolute;
+    left: 520px;
+    top: 30px;
+    opacity: 0;
+}
+
+.shoes3img:hover{
+    transition: 2s linear;
+    transform: scale(1.4);
+}
+.shoes3img:hover .shoes3Text{
+    opacity: 1;
+}
+
+.shoes3Wrap {
+    width: 100%;
+    margin: 10px auto;
+    position: relative;
+}
+
+.shoes3Text {
+    position: absolute;
+    left: 520px;
+    top: 30px;
+    opacity: 0;
+}
+
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17pt;
+    text-align: center;
+}
+
+div.border{
+    border-top-style: solid;
+    border-bottom-style: solid;
+}
+
+p{
+    text-align: center;
+}
+
+div{
+    text-align: center;
+    padding: 5px;
+}
+
+
+
+button{
+    text-align: center;
+    width: 70px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+button.loginU{
+    background-color: lightblue;
+}
+
+button.signupU{
+    background-color: lightgrey;
+}
+
+button.signup{
+    background-color: lightgreen;
+}
+
+button.cancel{
+    background-color: lightcoral;
+}
+
+button.login{
+    background-color: lightblue;
+}
